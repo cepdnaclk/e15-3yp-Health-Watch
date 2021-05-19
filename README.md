@@ -15,35 +15,35 @@ These projects will be automatically added into [https://projects.ce.pdn.ac.lk](
 ```
 {
   "visibility": false,
-  "title": "This is the title of the project",
+  "title": "Health Watch",
   "team": [
     {
-      "name": "Team Member Name 1",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
+      "name": "K.N.U. Kularatne",
+      "email": "e15188@eng.pdn.ac.lk",
+      "eNumber": "E/15/188"
     },
     {
-      "name": "Team Member Name 2",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
+      "name": "S.C. Tennakoon",
+      "email": "e15349@eng.pdn.ac.lk",
+      "eNumber": "E/15/349"
     },
     {
-      "name": "Team Member Name 3",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
+      "name": "K.T.B. Weerasinghe",
+      "email": "e15383@eng.pdn.ac.lk",
+      "eNumber": "E/15/383"
     }
   ],
   "supervisors": [
     {
-      "name": "Dr. Supervisor 1",
-      "email": "email@eng.pdn.ac.lk"
+      "name": "Prof. Roshan G. Ragel",
+      "email": "roshanr@eng.pdn.ac.lk"
     },
     {
-      "name": "Supervisor 2",
-      "email": "email@eng.pdn.ac.lk"
+      "name": "Dr. Isuru Nawinne",
+      "email": "isurunawinne@eng.pdn.ac.lk"
     }
   ],
-  "description": "This is a brief introduction of the project. You need to use plain text without any specific characters here",
+  "description": "Health Watch is a wrist band which monitors certain variables in the body, such as the heart rate, blood oxygen level and temperature.This product is mainly targeting the elderly people and those who need health monitoring on a daily basis. Not only does it monitor the health, it also maintains a database with the recorded measurements of the users (patients) and the data will be accessible by the people who look after them through a mobile and a web application. Health Watch will also indicate if the above measurements are beyond the standard rate.",
   "tags": ["Web", "Embedded Systems"]
 }
 ```
