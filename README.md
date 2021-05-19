@@ -1,55 +1,60 @@
-# eYY-3yp-project-template
+---
+layout: home
+permalink: index.html
 
-Health Watch is a wrist band which monitors certain variables in the body, such as the heart rate, blood oxygen level and temperature.
+# Please update this with your repository name and title
+repository-name: e15-3yp-Health-Watch
+title:Health Watch
+---
 
-### Enable GitHub Pages
+[comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-You can put the things to be shown in GitHub pages into the _docs/_ folder. Both html and md file formats are supported. You need to go to settings and enable GitHub pages and select _main_ branch and _docs_ folder from the dropdowns, as shown in the below image.
+# Health Watch
 
-![image](https://user-images.githubusercontent.com/11540782/98789936-028d3600-2429-11eb-84be-aaba665fdc75.png)
+---
 
-### Special Configurations
+## Team
+-  E/15/188, K.N.U. Kularatne, [e15188@eng.pdn.ac.lk](mailto:e15188@eng.pdn.ac.lk)
+-  E/15/349, S.C. Tennakoon, [e15349@eng.pdn.ac.lk](mailto:e15349@eng.pdn.ac.lk)
+-  E/15/383, K.T.B. Weerasinghe, [e15383@eng.pdn.ac.lk](mailto:e15383@eng.pdn.ac.lk)
 
-These projects will be automatically added into [https://projects.ce.pdn.ac.lk](). If you like to show more details about your project on this site, you can fill the parameters in the file, _/docs/index.json_
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Solution Architecture](#solution-architecture )
+3. [Hardware & Software Designs](#hardware-and-software-designs)
+4. [Links](#links)
 
-```
-{
-  "visibility": false,
-  "title": "Health Watch",
-  "team": [
-    {
-      "name": "K.N.U. Kularatne",
-      "email": "e15188@eng.pdn.ac.lk",
-      "eNumber": "E/15/188"
-    },
-    {
-      "name": "S.C. Tennakoon",
-      "email": "e15349@eng.pdn.ac.lk",
-      "eNumber": "E/15/349"
-    },
-    {
-      "name": "K.T.B. Weerasinghe",
-      "email": "e15383@eng.pdn.ac.lk",
-      "eNumber": "E/15/383"
-    }
-  ],
-  "supervisors": [
-    {
-      "name": "Prof. Roshan G. Ragel",
-      "email": "roshanr@eng.pdn.ac.lk"
-    },
-    {
-      "name": "Dr. Isuru Nawinne",
-      "email": "isurunawinne@eng.pdn.ac.lk"
-    }
-  ],
-  "description": "Health Watch is a wrist band which monitors certain variables in the body, such as the heart rate, blood oxygen level and temperature.This product is mainly targeting the elderly people and those who need health monitoring on a daily basis. Not only does it monitor the health, it also maintains a database with the recorded measurements of the users (patients) and the data will be accessible by the people who look after them through a mobile and a web application. Health Watch will also indicate if the above measurements are beyond the standard rate.",
-  "tags": ["Web", "Embedded Systems"]
-}
-```
+---
 
-Once you filled this _index.json_ file, please verify the syntax is correct. (You can use [this](https://jsonlint.com/) tool). Then change the _'visibility'_ property of the above json to _true_.
+## Introduction
 
-### Page Theme
+ 
+Health Watch is a wrist band which monitors certain variables in the body, such as the heart rate, blood oxygen level and temperature. This product is mainly targeting the elderly people and those who need health monitoring on a daily basis. Not only does it monitor the health, it also maintains a database with the recorded measurements of the users (patients) and the data will be accessible by the people who look after them through a mobile and a web application. Health Watch will also indicate if the above measurements are beyond the standard rate.
 
-A custom theme integrated with this GitHub Page, which is based on [github.com/cepdnaclk/eYY-project-theme](https://github.com/cepdnaclk/eYY-project-theme). If you like to remove this default theme, you can remove the file, _docs/\_config.yml_
+## Solution Architecture
+
+ As, mentioned previously, the solution we are proposing - Health Watch, which is a wearable device around the wrist, comprises of necessary sensors to measure the mentioned biomarkers.  The end product is expected to have an appearance similar to the image attached below.
+
+## Hardware and Software Designs
+### The sensors used
+#### MAX30100 Integrated Pulse Oximetry and Heart Rate Sensor
+#### LM35 precision centigrade temperature sensor
+#### ADXL 345 Digital Accelerometer
+![image](https://user-images.githubusercontent.com/73756777/118878421-287e2080-b90d-11eb-8773-2451de64a46b.png)
+#### Sensor module MAX30100
+![image](https://user-images.githubusercontent.com/73756777/118879225-12bd2b00-b90e-11eb-89f0-fa8437510c31.png)
+### Functionality is according to the MQTT Protocol
+![image](https://user-images.githubusercontent.com/73756777/118878983-d093e980-b90d-11eb-9755-a740d5f2f341.png)
+
+
+
+## Links
+
+- <a href = "https://github.com/cepdnaclk/e15-3yp-Health-Watch" target = "_blank"> Project Repository </a>
+- <a href = "https://cepdnaclk.github.io/e15-3yp-Health-Watch" target = "_blank">Project Page</a>
+- <a href = "http://www.ce.pdn.ac.lk/" target = "_blank">Department of Computer Engineering</a>
+- <a href = "https://eng.pdn.ac.lk/" target = "_blank">University of Peradeniya</a>
+
+
+[//]: # (Please refer this to learn more about Markdown syntax)
+[//]: # (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
