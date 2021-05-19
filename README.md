@@ -1,6 +1,6 @@
 # eYY-3yp-project-template
 
-This is a sample repository you can use for your Embedded Systems project. Once you followed these instructions, remove the text and add a brief introduction to here.
+Health Watch is a wrist band which monitors certain variables in the body, such as the heart rate, blood oxygen level and temperature.
 
 ### Enable GitHub Pages
 
