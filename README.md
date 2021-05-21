@@ -1,10 +1,8 @@
 ---
-layout: home
-permalink: index.html
-
-# Please update this with your repository name and title
+layout         : home
+permalink      : index.html
 repository-name: e15-3yp-Health-Watch
-title:Health Watch
+title          : Health Watch
 ---
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
